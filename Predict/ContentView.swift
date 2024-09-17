@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var prediction = "Concentrate and ask again"
+    @State private var prediction = ""
     @State private var choicesArray = ["It is certain",
                                        "It is decidedly so",
                                        "Without a doubt",
